@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block body %}
+	<body>
+	<div class="container" align="center">
+	<h1> Iris Flower Dataset Prediction</h1>
+	<form action="{{url_for('views.index')}}" method="POST">	
+		<label> Sepal Length: </label>
+		<input type="text" name="sepal_length" placeholder="sepal_length"/>
+		<br/>
+		<label> Sepal Width :</label>
+		<input type="text" name="sepal_width" placeholder="sepal_width"/>
+		<br/>
+		<label> Petal Length: </label>
+		<input type="text" name="petal_length" placeholder="petal_length"/>
+		<br/>
+		<label> Petal Width: </label>
+		<input type="text" name="petal_width" placeholder="petal_width"/>
+		<br/>
+
+		<button type="submit" class="btn btn-primary"> Predict </button>
+		
+	</form>	
+
+	{{ prediction_results }}
+
+	</div>
+	</body>
+
+{% endblock %}
