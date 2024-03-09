@@ -8,13 +8,13 @@ Depending on the input varibale, the model could predict the flower to belong to
 
 # Web Inteface
 The main page of the web application looks as below:
-! [Home Page] (interface/before_input.png)
+![Home Page](interface/before_input.png)
 
 One will enter the respective features into the text boxes as below:
-! [Home Page Input] (interface/during_input.png)
+![Home Page Input](interface/during_input.png)
 
 The web app then displays the results as shown below:
-! [Home Page] (interface/after_input.png)
+![Home Page](interface/after_input.png)
 
 
 
